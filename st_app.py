@@ -17,8 +17,13 @@ st.title('Brain Tumor Prediction')
 
 
 page = st.sidebar.selectbox(
-'Select a Page',('Tumor Detector')
+'Select a Page',('Home','Tumor Detector')
 )
+
+if page == 'Home':
+    st.title('About This Project')
+    st.write('This is a simple streamlit application built to house a Brain Tumor Detection Model Built by Mark Befeld.')
+
 
 if page == 'Tumor Detector':
 
