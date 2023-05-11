@@ -12,7 +12,7 @@ The Pred folder is unseen data used for further testing.
 These files were visually inspected and then preprocessed for use in the CNN by cropping them to be homogenius and broken into matrices.
 
 ## Modeling 
-A CNN was used with relu activation and sigmoid output layers. Epochs and batch sized were tweaked. 
+A CNN was used with relu activation and sigmoid output layers. Epochs and batch sizes were tweaked. 
 A callback was coded to ensure early stopping when the validation loss stagnated. 
 
 ## Results
