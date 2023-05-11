@@ -19,7 +19,7 @@ A callback was coded to ensure early stopping when the validation loss stagnated
 With a best validation accuracy of 98.6%, this model outperformed a baseline accuracy of 50%
 
 ## Deployement 
-The model was saved and exported to =a simple streamlit app. This app can be used to classsify unseen data. 
+The model was saved and exported to a simple streamlit app. This app can be used to classify unseen data. 
 
 ## Recommendations
 This model could be further improved with a higher quantity of data as well as higher quality data and processing.
